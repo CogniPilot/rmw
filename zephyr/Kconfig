@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+menuconfig RMW
+        bool "RMW support"
+        help
+          This option enables RMW
+
+if RMW
+
+endif
+
